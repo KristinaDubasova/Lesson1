@@ -5,7 +5,7 @@ while True:
         num2 = float(input("Введите второе чило:"))
         break
     except ValueError:
-        print("Ошибка: Введите числа корректно!")
+        print("Ошибка: Введите числа корректно!!")
 
 
 sum_result = num1 + num2
