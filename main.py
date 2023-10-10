@@ -23,3 +23,14 @@ print("Сумма:", sum_result)
 print("Разность:" ,diff_result)
 print("Произведение:", prod_result)
 print("Частное:", Del_result)
+
+#Задача 2
+def calculater_area(length,width):
+    area = length * width
+    return area
+
+length = float(input("Введите длину прямоугольника: "))
+width = float(input("Введите ширину прямоугольника: "))
+
+result = calculater_area(length,width)
+print(" Площадь прямоугольника равна: ", result)
